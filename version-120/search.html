@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>影片搜索 - 免费高清观看国产大片 _ 热播剧在线全集平台_影视库</title>
+  <meta name="description" content="国产影视库影片搜索页，支持按片名、年份、地区、类型、题材标签和分类筛选高清免费影视资源。">
+  <meta name="keywords" content="免费高清观看国产大片 _ 热播剧在线全集平台_影视库,国产,视频,免费,在线观看,高清,影视大全,搜索,筛选,影片检索">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="国产影视库">
+      <span class="brand-mark">▶</span>
+      <span class="brand-text">国产影视库</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a class="nav-link" href="index.html">首页</a><a class="nav-link" href="categories.html">分类</a><a class="nav-link" href="rankings.html">排行榜</a><a class="nav-link active" href="search.html">搜索</a>
+    </nav>
+    <form class="header-search" action="search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片" aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="mobile-menu-button" type="button" aria-label="打开导航" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <div class="mobile-panel" hidden>
+    <nav aria-label="移动端导航">
+      <a href="index.html">首页</a><a href="categories.html">分类</a><a href="rankings.html">排行榜</a><a href="search.html">搜索</a>
+      <div class="mobile-categories">
+        <a href="category-domestic-blockbusters.html">国产大片</a><a href="category-hot-series.html">热播剧集</a><a href="category-asia-theater.html">日韩剧场</a><a href="category-global-cinema.html">全球精选</a><a href="category-suspense-crime.html">悬疑犯罪</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="page-shell" id="search-page">
+  <section class="container page-hero compact-hero">
+    <span class="gradient-pill">搜索筛选</span>
+    <h1>影片搜索</h1>
+    <p>可按片名、年份、地区、类型、题材标签和分类快速筛选全站影片。</p>
+    <form class="search-panel" id="searchForm">
+      <input type="search" id="searchInput" name="q" placeholder="输入片名、演员关键词、年份或标签" autocomplete="off">
+      <select id="categoryFilter" aria-label="按分类筛选">
+        <option value="">全部分类</option>
+        <option value="国产大片">国产大片</option><option value="热播剧集">热播剧集</option><option value="日韩剧场">日韩剧场</option><option value="全球精选">全球精选</option><option value="悬疑犯罪">悬疑犯罪</option><option value="喜剧动作">喜剧动作</option><option value="爱情剧情">爱情剧情</option><option value="纪录历史">纪录历史</option><option value="恐怖惊悚">恐怖惊悚</option><option value="奇幻冒险">奇幻冒险</option>
+      </select>
+      <select id="typeFilter" aria-label="按类型筛选">
+        <option value="">全部类型</option>
+      </select>
+      <select id="yearFilter" aria-label="按年份筛选">
+        <option value="">全部年份</option>
+      </select>
+      <button type="submit">搜索</button>
+    </form>
+    <div class="search-count" id="searchCount"></div>
+  </section>
+  <section class="container movie-grid" id="searchResults"></section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">▶</span>
+        <span class="brand-text">国产影视库</span>
+      </a>
+      <p>支持免费高清观看国产大片，并提供热播剧在线全集播放平台。资源包含最新院线电影、经典国产片及持续更新剧集，画质超清，内容以国产影视为核心。</p>
+    </div>
+    <div>
+      <h2>快速导航</h2>
+      <div class="footer-links">
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类总览</a>
+        <a href="rankings.html">排行榜</a>
+        <a href="search.html">搜索筛选</a>
+      </div>
+    </div>
+    <div>
+      <h2>分类入口</h2>
+      <div class="footer-links columns">
+        <a href="category-domestic-blockbusters.html">国产大片</a>
+        <a href="category-hot-series.html">热播剧集</a>
+        <a href="category-asia-theater.html">日韩剧场</a>
+        <a href="category-global-cinema.html">全球精选</a>
+        <a href="category-suspense-crime.html">悬疑犯罪</a>
+        <a href="category-comedy-action.html">喜剧动作</a>
+        <a href="category-romance-drama.html">爱情剧情</a>
+        <a href="category-documentary-history.html">纪录历史</a>
+        <a href="category-horror-thriller.html">恐怖惊悚</a>
+        <a href="category-fantasy-adventure.html">奇幻冒险</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 国产影视库 · 高清影视在线全集平台</div>
+</footer>
+<script src="assets/movies.js"></script>
+<script type="module" src="assets/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
